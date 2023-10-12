@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7f5eee2f.css",
+    "main.js": "/static/js/main.8f5b1032.js",
+    "static/media/thumb-up.svg": "/static/media/thumb-up.ae778be2545d339186d7f27827d5ba72.svg",
+    "index.html": "/index.html",
+    "static/media/Close-menu.svg": "/static/media/Close-menu.67d0a39e8f2afba171e53b6f3531670b.svg",
+    "static/media/Menu.svg": "/static/media/Menu.2e4db3a986ee50d80ed0a331fba7eda5.svg",
+    "static/media/question-option-bg-mobile.svg": "/static/media/question-option-bg-mobile.84707b9683e5221d360c.svg",
+    "static/media/Correct.svg": "/static/media/Correct.fde3207388aeaf27cba7.svg",
+    "static/media/Selected.svg": "/static/media/Selected.23c575858698fd4e1fc7.svg",
+    "static/media/Wrong.svg": "/static/media/Wrong.9c4510c73e9ed6ba7cf5.svg",
+    "static/media/Hover.svg": "/static/media/Hover.cf92143351614638faf4.svg",
+    "static/media/Current-step.svg": "/static/media/Current-step.02b5c29064c2e0df4feb.svg",
+    "static/media/Step.svg": "/static/media/Step.119ea1bd4e3e7f434464.svg",
+    "main.7f5eee2f.css.map": "/static/css/main.7f5eee2f.css.map",
+    "main.8f5b1032.js.map": "/static/js/main.8f5b1032.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7f5eee2f.css",
+    "static/js/main.8f5b1032.js"
+  ]
+}
