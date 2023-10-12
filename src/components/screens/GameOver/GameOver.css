@@ -1,0 +1,42 @@
+.game-over {
+  display: flex;
+  justify-content: center;
+}
+
+.thumb-up {
+  max-width: 453px;
+  width: 100%;
+}
+
+.game-content {
+  display: flex;
+  max-width: 500px;
+  margin: 0 0 0 118px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.game-content__subtitle {
+  opacity: 0.5;
+  color: var(--black);
+  font-size: 32px;
+  margin: 0 0 8px;
+  font-weight: 600;
+}
+
+.game-content__title {
+  color: var(--black);
+  font-size: 56px;
+  font-weight: 600;
+  margin: 0 0 64px;
+}
+
+@media screen and (max-width: 670px) {
+  .game-over {
+    flex-direction: column;
+  }
+
+  .thumb-up {
+    max-width: 353px;
+  }
+}
