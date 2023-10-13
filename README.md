@@ -1,3 +1,5 @@
+<a href="https://vovadanilchenkoo.github.io/millioner-task-game/" target="_blank">https://vovadanilchenkoo.github.io/millioner-task-game/</a>
+
 In the project directory, run:
 
 ### `npm install`
