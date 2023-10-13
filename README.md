@@ -13,3 +13,4 @@ Please, use Node.js v20
 If you want to skip git hook, use "--no-verify" at the end of your git command.
 
 To push some updates to github pages use ### `npm run deploy` command.
+Regarding GitHooks just want to note that I didn't paid attention to adjust eslint, unit tests. I just added them to demonstrate that GitHooks works.
