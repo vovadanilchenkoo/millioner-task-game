@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/millioner-task-game/static/css/main.a916b842.css",
-    "main.js": "/millioner-task-game/static/js/main.bd76aac6.js",
+    "main.js": "/millioner-task-game/static/js/main.c0297465.js",
     "static/media/thumb-up.svg": "/millioner-task-game/static/media/thumb-up.ae778be2545d339186d7f27827d5ba72.svg",
     "index.html": "/millioner-task-game/index.html",
     "static/media/Close-menu.svg": "/millioner-task-game/static/media/Close-menu.67d0a39e8f2afba171e53b6f3531670b.svg",
@@ -14,10 +14,10 @@
     "static/media/Current-step.svg": "/millioner-task-game/static/media/Current-step.02b5c29064c2e0df4feb.svg",
     "static/media/Step.svg": "/millioner-task-game/static/media/Step.119ea1bd4e3e7f434464.svg",
     "main.a916b842.css.map": "/millioner-task-game/static/css/main.a916b842.css.map",
-    "main.bd76aac6.js.map": "/millioner-task-game/static/js/main.bd76aac6.js.map"
+    "main.c0297465.js.map": "/millioner-task-game/static/js/main.c0297465.js.map"
   },
   "entrypoints": [
     "static/css/main.a916b842.css",
-    "static/js/main.bd76aac6.js"
+    "static/js/main.c0297465.js"
   ]
 }
