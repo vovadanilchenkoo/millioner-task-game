@@ -8,7 +8,7 @@
         {"optionLetter": "C", "option": "Madrid"},
         {"optionLetter": "D", "option": "Rome"}
       ],
-      "rightAnswer": ["Paris", "London"]
+      "rightAnswer": "Paris"
     },
     {
       "question": "Who painted the Mona Lisa?",
