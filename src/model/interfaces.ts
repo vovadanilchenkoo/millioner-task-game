@@ -3,10 +3,13 @@ export interface Store {
 }
 
 export interface GameState {
-  step: number
+  step: number,
+  steps: string[],
   isMenuOpen: boolean
   totalScore: string
   currentScreen: string
+  question: string
+  answerOptions: Option[]
 };
 
 export interface Question {
@@ -18,8 +21,4 @@ export interface Question {
 export interface Option {
   option: string;
   optionLetter: string;
-};
-
-export interface StepsProps {
-  steps: string[];
 };

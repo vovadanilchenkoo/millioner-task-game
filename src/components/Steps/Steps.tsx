@@ -2,12 +2,13 @@ import "./Steps.css";
 import { useSelector, useDispatch } from "react-redux";
 import { setIsMenuOpen } from "../../store/gameSlice";
 import { ReactComponent as Close } from "../../assets/Close-menu.svg";
-import { StepsProps } from "../../model/interfaces";
+import { Store } from "../../model/interfaces";
 
-const Steps = ({ steps }: StepsProps) => {
+const Steps = () => {
   const dispatch = useDispatch();
-  const currentStep = useSelector((state: any) => state.game.step);
-  const isMenuOpen = useSelector((state: any) => state.game.isMenuOpen);
+  const steps = useSelector((state: Store) => state.game.steps);
+  const currentStep = useSelector((state: Store) => state.game.step);
+  const isMenuOpen = useSelector((state: Store) => state.game.isMenuOpen);
 
   const closeMenu = () => dispatch(setIsMenuOpen(false));
 
