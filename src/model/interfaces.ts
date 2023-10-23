@@ -3,22 +3,25 @@ export interface Store {
 }
 
 export interface GameState {
-  step: number,
-  steps: string[],
-  isMenuOpen: boolean
-  totalScore: string
-  currentScreen: string
+  step: number
+  steps: string[]
   question: string
+  totalScore: string
+  isMenuOpen: boolean
+  currentScreen: string
+  questions: Question[]
   answerOptions: Option[]
+  isOptionCorrect: boolean
+  isOptionSelected: boolean
 };
 
 export interface Question {
-  question: string;
-  options: Option[];
-  rightAnswer: string | string[];
+  question: string
+  options: Option[]
+  rightAnswer: string | string[]
 }
 
 export interface Option {
-  option: string;
-  optionLetter: string;
+  option: string
+  optionLetter: string
 };

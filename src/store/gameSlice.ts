@@ -1,8 +1,6 @@
 import data from '../gameConfig.json';
-import { Option } from "../model/interfaces";
-import { createSlice } from '@reduxjs/toolkit';
-import { PayloadAction } from '@reduxjs/toolkit';
-import { GameState } from './../model/interfaces';
+import { GameState, Option } from './../model/interfaces';
+import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 
 const initialState: GameState = {
   step: 0,
@@ -10,6 +8,9 @@ const initialState: GameState = {
   steps: data.steps,
   isMenuOpen: false,
   currentScreen: 'start',
+  isOptionCorrect: false,
+  isOptionSelected: false,
+  questions: data.questions,
   question: data.questions[0].question,
   answerOptions: data.questions[0].options,
 };
@@ -23,6 +24,12 @@ export const gameSlice = createSlice({
     },
     setIsMenuOpen: (state, action: PayloadAction<boolean>) => {
       state.isMenuOpen = action.payload;
+    },
+    setIsOptionCorrect: (state, action: PayloadAction<boolean>) => {
+      state.isOptionCorrect = action.payload;
+    },
+    setIsOptionSelected: (state, action: PayloadAction<boolean>) => {
+      state.isOptionSelected = action.payload;
     },
     setTotalScore: (state, action: PayloadAction<string>) => {
       state.totalScore = action.payload;
@@ -52,7 +59,9 @@ export const {
   setTotalScore,
   setCurrentScreen,
   setAnswerOptions,
-  setInitialGameState
+  setIsOptionCorrect,
+  setInitialGameState,
+  setIsOptionSelected,
 } = gameSlice.actions;
 
 export default gameSlice.reducer;
